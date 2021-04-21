@@ -1,0 +1,10 @@
+
+<div class = "sports-article card" *ngIf="article" >
+    <h2>{{article.title}}</h2>
+    <img src={{article.imageUrl}} alt="Article image">
+    <p class="description">{{article.description}}</p> <br/>
+    <p>Read the rest of the article <a href="{{article.url}}">here</a>
+</div>
+<div *ngIf="!article">
+    <span>Sorry, this article cannot be found.</span>
+</div>

@@ -1,0 +1,25 @@
+<body>
+    <div class="col-md-10 offset-md-1">
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Published At</th>
+                    <th scope="col">Edit/Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let article of news">
+                    <th scope="row">{{article.news.title}}</th>
+                    <td>{{article.news.description}}</td>
+                    <td>{{article.news.publishedAt | date : "mediumDate" }}</td>
+                    <td>
+                        <button class="btn btn-warning">Edit</button>
+                        <button class="btn btn-danger" (click)="deleteById(article.news.id)">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>

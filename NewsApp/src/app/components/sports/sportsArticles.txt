@@ -1,0 +1,50 @@
+<!-- Data for mongoDB
+
+Chess Boxing: 
+title: "Chess boxing: a sport of two extremes"
+description: "Imagine, if you will, a sport that simultaneously pushed its athletes to their physical and intellectual limits — a sport that requires an extreme amount of focus, restraint, and raw power. Well, imagine no longer, as the odd, but nevertheless impressive, new sport known as chess boxing has burst onto the scene.
+
+Chess boxing is a sport in which two athletes alternate between six rounds of chess and five rounds of boxing, lasting three minutes each. In chess boxing, the winner is whoever gets a checkmate or a knockout first. Athletes can also be disqualified for trying to stall for time and, in the event of a draw, the winner is determined by points scored in the boxing ring. If the two athletes are still tied after their five boxing rounds have been assessed by the judges, the athlete playing the black side in chess is determined to be the winner."
+url: "https://the-peak.ca/2020/02/chess-boxing-a-sport-of-two-extremes/"
+imageUrl: "NewsApp\src\assets\NewsImages\W7-SPORTS-Chess-Boxing.jpg"
+publishedAt: "2020-02-15T21:55:42.698Z"
+category: "sports"
+
+
+Cheese Rolling: 
+title: "Chasing Cheese: Looking at England's strangest sport"
+description: "The world right now is one without the pleasure of live sports, but it’s slowly beginning to see a return to normalcy. On Sunday, NASCAR officially returned with a fan-less race in Darlington. Additionally, the state of Arizona opened up again to all professional sports as of May 15 — the same day Virginia began its first steps toward re-opening from quarantine.  
+
+With live sports sidelined over the past two months, it’s been amazing what some sports fans have turned to for entertainment during the pandemic. Documentaries such as “The Last Dance” and e-sports on streaming platforms like Twitch have become popular since March.
+
+Arguably, the most interesting sports have been the ones fans have found away from mainstream media.
+
+One such sporting event, which is interesting at the least, also proved to keep healthcare workers across the pond in England busy before the pandemic even began. The legendary Cooper’s Hill Cheese-Rolling and Wake, which may be England’s strangest sport, is certainly one of its most dangerous."
+url: https://www.breezejmu.org/sports/chasing-cheese-looking-at-englands-strangest-sport/article_17262b40-9f7b-11ea-8d46-bbdbf307c75a.html
+imageUrl: NewsApp\src\assets\NewsImages\CheeseRolling.jpg
+publishedAt: "2020-05-27T21:55:42.698Z"
+category: "sports"
+
+
+Extreme Ironing: 
+title: "Extreme Ironing: household chores gone wild"
+description: "I, like many of my fellow students, dislike any kind of activity that can even remotely be defined as chores. Having said that, it’s a little ironic that I now find myself engrossed in extreme ironing: the only sport (sorry, extreme sport) in which people iron clothes, competitively, in all kinds of unconventional locations. From mountain tops to the sides of cliffs, to highways, forests, and underwater locations, extreme ironing is driven by the extremity of its fields of play. Some extreme ironing competitions have even taken place during go-kart races or skydiving."
+url: https://the-peak.ca/2020/04/extreme-ironing-household-chores-gone-wild/
+imageUrl: NewsApp\src\assets\NewsImages\W8-SPORTS-Extreme-Ironing.jpg
+publishedAt: "2020-04-11T21:55:42.698Z"
+category: "sports"
+
+
+Wife Carrying: 
+title: "You Can Win Beer And Cash In Wife Carrying Competition In Maine"
+description: "Okay, this sound like a lot of fun!
+
+The annual Wife Carrying Championship is returning to Western Maine.  I had never heard of this before, but since it's in its 21st year, it seems like everyone else has
+
+According to Sunday River Resort in Newry, Maine, the tradition was started there in 1999 and takes place on October 9th.""
+
+url: https://wokq.com/you-can-win-beer-and-cash-in-wife-carrying-competition-in-maine/
+imageUrl: NewsApp\src\assets\NewsImages\WifeCarrying.jpg
+publishedAt: "2020-09-15T21:55:42.698Z"
+category: "sports"
+-->

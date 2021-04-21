@@ -1,0 +1,13 @@
+img {
+width: 720px;
+height: 300px;
+object-fit: cover;
+}
+
+.class_mrgn {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

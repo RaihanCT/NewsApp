@@ -1,0 +1,15 @@
+<html>
+    <form action="/news" method="POST">
+        <input name="title" placeholder="title" />
+        <input name="description" placeholder="description" />
+        <input name="url" placeholder="url" />
+        <input name="imageUrl" placeholder="imageUrl" />
+        <!-- <input name="category" placeholder="category" /> -->
+        <select name="category" id="category">
+            <option value="news" selected>News</option>
+            <option value="sports">Sports</option>
+        </select>
+        <input name="date" type="date" />
+        <button type="submit">Add Article</button>
+    </form>
+</html>

@@ -1,0 +1,18 @@
+<form #form="ngForm" action="" (ngSubmit)="createArticle()" method="POST">
+    <input type="text" name="title" placeholder="Title" [(ngModel)]="articleData.title" />
+
+    <input type="text" name="description" placeholder="description" [(ngModel)]="articleData.description" />
+
+    <input type="text" name="url" placeholder="url" [(ngModel)]="articleData.url" />
+
+    <input type="text" name="imageUrl" placeholder="imageUrl" [(ngModel)]="articleData.imageUrl" />
+    
+    <select name="category" id="category" [(ngModel)]="articleData.category" >
+        <option value="news" selected>News</option>
+        <option value="sports">Sports</option>
+    </select>
+
+    <input name="publishedAt" type="date" [(ngModel)]="articleData.publishedAt" />
+
+    <button type="submit">Add Article</button>
+</form>

@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <div>
+        <h1>Sports News!</h1>
+        <h5>Select an article below.</h5>
+    </div>
+
+    <div class="sports" *ngFor="let article of articles">
+        <a type="link-primary"
+            href="http://localhost:4200/sports-article/{{article.news.id}}">{{article.news.title}}</a>
+        <!-- <img src="article.news.imageUrl"> -->
+        <!-- (click)="navigateTo( article.news.id )" -->
+    </div>
+</div>

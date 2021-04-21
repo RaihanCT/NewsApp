@@ -1,0 +1,14 @@
+// a {
+//     color: blue;
+// }
+// a:hover {
+//     color: pink;
+// }
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 100px;
+}

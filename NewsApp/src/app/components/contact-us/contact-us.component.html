@@ -1,0 +1,73 @@
+<main class="d-flex align-items-center">
+
+    <div class="container">
+        <div class="row" style="margin-left: 10px; margin-top: 50px;">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.0789218620744!2d-74.33686791976812!3d40.56193437944959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3b667532db7fd%3A0x42a56146afbed101!2sTata%20Consultancy%20Services!5e0!3m2!1sen!2sus!4v1617033165984!5m2!1sen!2sus"
+                width="50%" height="500px" style="margin-top: 50px;" allowfullscreen=""
+                loading="lazy"></iframe><br><br><br><br><br><br>
+
+
+            <!-- </div> -->
+            <div class="col">
+
+                <div style=" margin-top: 50px">
+
+                    <div style="text-align: center;">
+                        <h4><strong>Contact Us</strong></h4>
+                    </div>
+                    <div class="card-body" style="margin: 10px 20px;">
+
+                        <form  #form action="http://localhost:3000/contactus" method="POST">
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <label for="fName"><strong>First Name</strong></label>
+                                    <input type="text" class="form-control" id="fName" name="fName"
+                                        placeholder="Insert first name" required autofocus>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <label for="lName"><strong>Last Name</strong></label>
+                                    <input type="text" class="form-control" id="lName" name="lName"
+                                        placeholder="Insert last name" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <label for="email"> <strong>Email</strong></label>
+                                    <input type="text" class="form-control" id="email" name="email"
+                                        placeholder="Insert your email address" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <label for="description"><strong>Description</strong></label>
+                                    <textarea class="form-control" id="description" name="description"
+                                        placeholder="Insert your description" style="height: 100px;"></textarea>
+
+
+                                </div>
+                            </div>
+
+
+                            <button  type="submit" (click)="form.submit()" class="btn btn-block btn-primary mb-4" style="margin-top: 2rem;">Send
+                                email</button>
+                            <input type="reset" value="Reset" class="btn btn-block btn-danger">
+
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+</main>

@@ -1,0 +1,33 @@
+<form #adminLogInForm="ngForm" class="form admin-form" action="" method="POST" (ngSubmit)="loginUser()">
+  <div class="form-group">
+    <input type="email" style="width : 100%" placeholder="Email" [(ngModel)]="loginData.email" name="email"
+      #email="ngModel" required email>
+  </div>
+
+  <ng-container *ngIf="email.errors && (email.dirty || email.touched)">
+    <div *ngIf="email.errors.required" class="error-msg">
+      E-Mail Address is required.
+    </div>
+    <div *ngIf="email.errors.email" class="error-msg">
+      Enter a valid email address e.g. john.example.com
+    </div>
+  </ng-container>
+
+  <div class="form-group">
+    <input type="password" style="width : 100%" placeholder="Password" [(ngModel)]="loginData.password" name="password"
+      #password="ngModel" minlength="6" required>
+  </div>
+
+  <ng-container *ngIf="password.errors && (password.dirty || password.touched)">
+    <div *ngIf="password.errors.required" class="error-msg">
+      Password is required.
+    </div>
+    <div *ngIf="password.errors.minlength" class="error-msg">
+      Password must be at least 6 characters.
+    </div>
+  </ng-container>
+
+  <input [disabled]="adminLogInForm.status === 'INVALID' " type="submit" class="btn btn-success"
+    style="margin-right: 5px;" value="Log in" />
+  <span class="btn btn-warning" (click)="resetForm()">Reset</span>
+</form>

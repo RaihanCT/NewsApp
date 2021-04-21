@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.admin-form{
+  border : 1px solid black;
+  padding : 20px;
+  height: 60vh;
+  width: 40vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.admin-form input{
+  text-align: center;
+}
+
+//form validation css
+.error-msg{
+  color : red;
+}
+
+.error{
+  color : red;
+}
+
+
+.wrapper{
+  min-height: 85vh;
+}

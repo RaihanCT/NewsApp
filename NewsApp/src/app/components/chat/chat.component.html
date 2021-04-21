@@ -1,0 +1,32 @@
+
+<div class="chat-box-wrapper card" style="width: 300px; height: 500px; padding : 5px;">
+
+  <div class = "chat-box-entry" *ngIf="loggedInUserName === ''">
+    <h2>Welcome to the Chat</h2>
+    <h3>Please enter a valid username</h3>
+    <div class="input-group mb-3" >
+      <input [(ngModel)]="username" placeholder="username" class="form-control" />
+      <button class="btn btn-outline-success" (click)="loginUser()">Login</button>
+    </div>
+  </div>
+
+  <div  *ngIf="loggedInUserName !== ''" class="chat-box" >
+      <p> Welcome {{loggedInUserName}}, there are {{userCount}} users currently online. </p>
+    <div style="width: 100%; height: 300px; overflow-y: scroll;">
+      <div *ngFor="let msg of messagesRecieved" class="card d-flex justify-content-around" style="max-width : 80%; padding : 5px; margin-bottom: 2px;" [ngClass]="{'notSelf' : !msg.self}">
+        <p class="lead" style="height : 95%;">{{msg.message}}</p>
+        <p class="d-flex justify-content-around" style="height : 5%">
+          <small>{{msg.username}}</small>
+          <small>{{msg.timestamp | date : 'shortTime' }}</small>
+        </p>
+      </div>
+    </div>
+
+    <div class="input-group">
+      <textarea class="form-control" aria-label="With textarea" [(ngModel)]="messageToBeSent" placeholder="Type your message"></textarea>
+      <button class="btn btn-outline-success" (click)="sendMessage()">Send</button>
+    </div>
+
+  </div>
+</div>
+
